@@ -1,0 +1,54 @@
+/* Estilos para os cartões de serviço */
+.service-card {
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  overflow: hidden;
+  transition: transform 0.3s, box-shadow 0.3s;
+  background: #ffffff; /* Fundo branco para os cartões */
+}
+
+.service-card:hover {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.15);
+  transform: translateY(-5px);
+}
+
+/* Estilos para as imagens dos serviços */
+.service-img img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.3s;
+}
+
+.service-img img:hover {
+  transform: scale(1.05);
+}
+
+/* Estilos para a área de informação */
+.service-info {
+  padding: 15px;
+  text-align: center;
+}
+
+/* Estilo para o texto de citação */
+.service-quote {
+  font-style: italic;
+  color: #007bff; /* Cor para o texto de citação */
+  margin-top: 10px;
+}
+
+/* Estilo para os títulos */
+h3 {
+  color: #333; /* Cor do título do serviço */
+}
+
+/* Estilo para os parágrafos */
+p {
+  color: #666; /* Cor do texto */
+}
+
+/* Responsividade para dispositivos móveis */
+@media (max-width: 768px) {
+  .service-card {
+    margin-bottom: 30px; /* Espaçamento entre cartões */
+  }
+}
