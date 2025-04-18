@@ -1,0 +1,18 @@
+/*para links de redes sociais*/
+.social-links a
+{
+	font-size: 2rem;
+	color: #333;
+	transition: color 0.3s ease;
+	text-decoration: none;
+}
+.social-links a:hover
+{
+	color: #007bff;
+}
+
+/*Espaçamento entre os ícones*/
+.social-links
+{
+	gap: 20px;
+}

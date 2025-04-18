@@ -4,19 +4,47 @@
 		<meta charset="UTF-8">
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>Página Profissional</title>
+		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
+		<!-- Bootstrap CSS -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+		<!-- Bootstrap Icons -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+		<!-- Seus Estilos Personalizados -->
+		<link rel="stylesheet" href="template.css">
 		<link rel="stylesheet" href="style.css">
+		<link rel="stylesheet" href="Template.css">
 		<link rel="stylesheet" href="scrypt.js">
 	</head>
-	<body>
+		<body>
+			<header>
+				<div class="container header-container">
+					<h1>DC</h1>
+					<nav>
+			</header>
 		<header>
-			<h1>Bem-vindo à Página de Dumilde Costa</h1>
-			<p>Transformando ideias em codigo</p>
+			<section id="inicio" class="hero">
+				<div class="container">
+					<h1>Bem-vindo à Página de Dumilde Costa</h1>
+					<p>Transformando ideias em codigo</p>
+				</div>
+			</section>
 		</header>
 		<main>
-			<section>
-				<h2>Sobre Mim</h2>
-				<p> Sou Dumilde Costa, desenvolvedor altamente qualificado com especialização em Python e JavaScript, apaixonado por criar soluções inovadoras e eficientes. Destaco-me pela organização de repositórios para projetos colaborativos, produção de conteúdo motivacional que engaja e inspira, e pela exploração avançada de ferramentas de pentesting, como Bettercap e Wifite, aprimorando continuamente minha expertise técnica. Meu objetivo é contribuir para projetos de alto impacto, sempre buscando excelência e evolução profissional. </p>
-			</section>
+			<div class="swiper-wrapper">
+
+				<div class="swiper-slide">
+					<div class="item">
+						<h3 class="mb-3">Sobre Mim</h3>
+						<h4 class="mb-3"> Sou Dumilde Costa, desenvolvedor altamente qualificado com especialização em Python e JavaScript, apaixonado por criar soluções inovadoras e eficientes. </h4>
+						<p>Destaco-me pela organização de repositórios para projetos colaborativos, produção de conteúdo motivacional que engaja e inspira, e pela exploração avançada de ferramentas de pentesting, como Bettercap e Wifite, aprimorando continuamente minha expertise técnica. Meu objetivo é contribuir para projetos de alto impacto, sempre buscando excelência e evolução profissional. </p>
+					</div>
+				</div>
+				 <div class="swiper-button-prev"></div>
+				             <div class="swiper-button-next"></div>
+					               </div>
+
+						               </div>
+					</p>
 			<section>
 				<h2>Serviços</h2>
 				<ul>
@@ -26,15 +54,72 @@
 					<li>Consultoria em ferramentas de pentesting.</li>
 				</ul>
 			</section>
-			<section>
-				<h2>Contato</h2>
-				<p>Email: <a href="m">dumildecosta10@gmail.com</a></p>
-				<p>Telefone: (+244) 947 092 305</p>
-			</section>
 		</main>
+		<footer id="footer" class="footer light-background">
+			<div class="footer-top py-5">
+				<div class="container">
+					<div class="row gy-4">
+						<!-- Sobre o Site -->
+						<div class="col-lg-5 col-md-12 footer-about">
+							<a href="index.html" class="logo d-flex align-items-center mb-3">
+								<span class="sitename">DC</span>
+							</a>
+							<p>Programar é transformar café em código, bugs em aprendizado e paixão em inovação.</p>
+							<div class="social-links d-flex mt-4">
+								<a href="#" title="Twitter"><i class="bi bi-twitter-x"></i></a>
+								<a href="https://www.facebook.com/profile.php?id=100086838957451" title="Facebook"><i class="bi bi-facebook"></i></a>
+								<a href="https://www.instagram.com/bartolomeu6614/" title="Instagram"><i class="bi bi-instagram"></i></a>
+								<a href="#" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+							</div>
+						</div>
+						<!-- Useful Links -->
+						<div class="col-lg-2 col-6 footer-links">
+							<h4>Useful Links</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">Inicio</a></li>
+								<li><a href="#">Sobre nós</a></li>
+								<li><a href="#">Services</a></li>
+								<li><a href="#">Termos de Serviços</a></li>
+								<li><a href="#">Privacidade Politica</a></li>
+							</ul>
+						</div>
+						<!-- Nossos Serviços -->
+						<div class="col-lg-2 col-6 footer-links">
+							<h4>Nossos Serviços</h4>
+							<ul class="list-unstyled">
+								<li><a href="#">Dev de aplicações em Python e JavaScript./a></li>
+								<li><a href="#">Gestão e organização de workflows no Github./a></li>
+								<li><a href="#">Criação de conteúdos motivacionais para a comunidade.</a></li>
+								<li><a href="#">Consultoria em ferramentas de pentesting</a></li>
+							</ul>
+						</div>
+						<!-- Contato -->
+						<div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+							<h4>Contate-nos</h4>
+							<p>R Patricia Rossana casa nª16</p>
+							<p>Luanda, Angola</p>
+							<p class="mt-4">
+							<strong>Phone:</strong> <span>+244 947 092 305</span></p>
+							<p>
+							<strong>Email:</strong> <span>dumildecosta10@gmail.com</span></p>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Você pode incluir aqui mais uma área de rodapé, se desejar -->
+			<div class="footer-bottom text-center py-3 bg-dark text-white">
+				<div class="container">
+					<p class="mb-0">&copy; 2025 Todos os direitos reservados.</p>
+				</div>
+			</div>
+		</footer>
+		<!-- Bootstrap JS Bundle -->
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+		<!-- Seus Scripts Personalizados -->
+		<script src="script.js"></script>
 		<footer>
-			<p>&copy; 2025 Todos os direitos reservados.</p>
+
 		</footer>
 		<script src="script.js"></script>
-	</body>
+		</body>
 </html>
