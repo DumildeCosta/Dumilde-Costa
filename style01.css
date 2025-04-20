@@ -1,0 +1,141 @@
+/* Reset básico e fonte */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #1a1a1a;
+  color: #e0e0e0;
+}
+
+/* Header */
+header {
+  background-color: #262626;
+  border-bottom: 2px solid #d4af37;
+  padding: 20px;
+}
+
+/* Navegação */
+.nav-link {
+  color: #e0e0e0;
+  margin-left: 20px;
+  transition: color 0.3s;
+}
+.nav-link:hover {
+  color: #d4af37;
+}
+
+/* Hero section */
+.hero {
+  background: linear-gradient(135deg, #1a1a1a, #333);
+  text-align: center;
+  padding: 60px 20px;
+}
+
+/* Botões */
+.btn-primary {
+  background-color: #d4af37;
+  border: none;
+  color: #1a1a1a;
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.btn-primary:hover {
+  background-color: #b7862c;
+}
+/* Área de Serviços */
+.services {
+  padding: 60px 0;
+  background-color: #f8f8f8; /* cor de fundo suave */
+  color: #333; /* cor padrão dos textos */
+}
+
+.services h2 {
+  text-align: center;
+  margin-bottom: 40px;
+  font-size: 2.5rem;
+}
+
+.service-item {
+  padding: 20px;
+  background-color: #fff;
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center;
+}
+
+.service-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.service-item h3 {
+  margin-bottom: 20px;
+  font-size: 1.5rem;
+}
+
+.service-item p {
+  margin-bottom: 20px;
+  font-size: 1rem;
+}
+
+/* Opcional: Estilizando o botão interno dos itens */
+.service-item .btn-outline-secondary {
+  border-color: #808080;
+  color: #808080;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.service-item .btn-outline-secondary:hover {
+  background-color: #007acc;
+  color: #fff;
+}
+/* Estilização da Seção de Contato */
+/* Seção de Contato com Tema Escuro */
+.contact-section.dark-theme {
+  background-color: #121212; /* Fundo muito escuro */
+  color: #f5f5f5;  /* Texto claro */
+  padding: 50px 0;
+}
+
+/* Estilização dos Ícones de Redes Sociais */
+.social-icons {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.social-icons li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-icons li a {
+  font-size: 2rem;            /* Tamanho dos ícones */
+  color: #808080;             /* Cor dos ícones */
+  transition: color 0.3s ease;
+}
+
+.social-icons li a:hover {
+  color: #a9a9a9; /* Exemplo de cor dourada no hover */
+}
+
+/* Estilização das Informações Pessoais */
+.contact-info li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+/* Ajuste responsivo para telas menores */
+@media (max-width: 767.98px) {
+  .social-col, .info-col {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+}
+
