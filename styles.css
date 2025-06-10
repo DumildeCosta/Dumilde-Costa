@@ -4,7 +4,7 @@
   width: 300px;    /* Ajuste conforme necessário */
   height: 300px;   /* Garante proporção fixa */
   object-fit: cover; /* A imagem preenche o container sem distorção */
-  border-radius: 50%; /* Para um formato circular; use, por exemplo, 10px para cantos suavemente arredondados */
+  border-radius: 10%; /* Para um formato circular; use, por exemplo, 10px para cantos suavemente arredondados */
   border: 4px solid #1a73e8; /* Destaque com sua cor primária */
   box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Efeito de profundidade */
   margin: 0 auto; /* Centraliza horizontalmente */
