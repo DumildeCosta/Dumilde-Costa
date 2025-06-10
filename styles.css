@@ -1,19 +1,18 @@
-/* CSS para a foto profissional do chefe */
-.img-reduzida {
+.img-profissional {
   display: block;
-  width: 300px;    /* Ajuste conforme necessário */
-  height: 300px;   /* Garante proporção fixa */
-  object-fit: cover; /* A imagem preenche o container sem distorção */
-  border-radius: 10%; /* Para um formato circular; use, por exemplo, 10px para cantos suavemente arredondados */
-  border: 4px solid #1a73e8; /* Destaque com sua cor primária */
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Efeito de profundidade */
-  margin: 0 auto; /* Centraliza horizontalmente */
+  width: 100%;
+  max-width: 300px;      /* Tamanho máximo da imagem */
+  height: 300px;         /* Define altura fixa para manter o corte */
+  object-fit: cover;     /* Garante que a imagem preencha o container sem distorção */
+  border-radius: 50%;    /* Deixa a imagem circular */
+  border: 4px solid #1a73e8;  /* Moldura com a cor principal */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);  /* Sombra para profundidade */
+  margin: 0 auto;        /* Centraliza horizontalmente dentro do container */
 }
 
-/* Ajuste para telas menores */
-@media (max-width: 576px) {
-  .img-reduzida {
-    width: 200px;
+@media (max-width: 768px) {
+  .img-profissional {
+    max-width: 200px;
     height: 200px;
   }
 }
