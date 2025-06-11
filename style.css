@@ -1,0 +1,64 @@
+/* Fonte padrão */
+body {
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* Hero */
+.hero {
+  background: #f8f9fa;
+}
+
+/* Serviço: ícone */
+.service-item .icon {
+  font-size: 2.5rem;
+}
+
+/* Foto profissional */
+.img-profissional {
+  max-width: 300px;
+  border-radius: .5rem;
+}
+
+/* Botão WhatsApp */
+.whatsapp-btn {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #25D366;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+  z-index: 1000;
+  text-decoration: none;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+  .hero .display-4 {
+    font-size: 2rem;
+    line-height: 1.2;
+  }
+  .hero .lead {
+    font-size: 1rem;
+  }
+  .service-item {
+    padding: 1.5rem;
+  }
+  .contact-info {
+    text-align: center;
+  }
+  .social-col {
+    text-align: center !important;
+  }
+  .whatsapp-btn {
+    bottom: 10px;
+    right: 10px;
+    width: 50px;
+    height: 50px;
+  }
+}
