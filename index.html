@@ -1,147 +1,164 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<link rel="shortcut icon" href="DC.jpg" type="image/x-icon">
-		<title>DC TECH</title>
-		<!-- Fontes do google -->
-		<link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap"rel="stylesheet"/>
-		<!-- Bootstrap de CSS -->
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css"rel="stylesheet"/>
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet" />
-		<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css"rel="stylesheet"/>
-		<!-- CSS -->
-		
-		<link rel="stylesheet" href="styles.css"/>
-	</head>
-	<body>
-		
-		<header class="header">
-			<div class="container d-flex justify-content-between align-items-center py-3">
-				<h1 class="logo">Dumilde Costa</h1>
-				<nav>
-					<ul class="nav">
-						<li class="nav-item"><a href="#inicio" class="nav-link">Início</a></li>
-						<li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
-						<li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
-						<li class="nav-item"><a href="#contato" class="nav-link">Contato</a></li>
-					</ul>
-				</nav>
-			</div>
-		</header>
-		<!-- Área principal-->
-		<section id="inicio" class="hero text-center py-5">
-			<div class="container">
-				<h1 class="display-4">Dumilde Costa<br />Desenvolvedor altamente qualificado</h1>
-        <p class="lead">Especialista em soluções digitais seguras e eficientes.</p>
-	<a href="#contato" class="btn btn-primary btn-lg">Fale comigo</a>
-			</div>
-		</section>
-
- <!-- Seção sobre -->
-    <section id="sobre" class="py-5 bg-white">
-  <div class="container">
-    <div class="row align-items-center">
-      <!-- Coluna da foto à esquerda -->
-      <div class="col-md-6 text-center">
-        <img src="chefe Dumilde.jpeg" alt="Dumilde Costa" class="img-fluid img-profissional">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>DC TECH</title>
+  <link rel="icon" href="DC.jpg" type="image/x-icon"/>
+  <!-- Fontes -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500&display=swap" rel="stylesheet"/>
+  <!-- Bootstrap CSS + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/>
+  <!-- Seu CSS -->
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <!-- Navbar Responsiva -->
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-white py-3">
+      <div class="container">
+        <a class="navbar-brand fw-bold" href="#inicio">Dumilde Costa</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#mainNav" aria-controls="mainNav"
+                aria-expanded="false" aria-label="Menu de navegação">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="mainNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+            <li class="nav-item"><a class="nav-link" href="#sobre">Sobre</a></li>
+            <li class="nav-item"><a class="nav-link" href="#servicos">Serviços</a></li>
+            <li class="nav-item"><a class="nav-link" href="#contato">Contato</a></li>
+          </ul>
+        </div>
       </div>
-      <!-- Coluna do texto à direita -->
-      <div class="col-md-6">
-        <h2 class="mb-4">Sobre Mim</h2>
-        <p class="mb-4">
-          Sou um desenvolvedor especializado em transformar ideias em soluções digitais. Com ampla experiência em Python e JavaScript, crio aplicações e interfaces seguras e eficientes. Meu compromisso é com a inovação e a qualidade.</p>
-        <div>
-          <span class="badge bg-primary me-1">Python</span>
-          <span class="badge bg-primary me-1">JavaScript</span>
-          <span class="badge bg-primary me-1">Django</span>
-          <span class="badge bg-primary me-1">React</span>
+    </nav>
+  </header>
+  <!-- Hero -->
+  <section id="inicio" class="hero text-center py-5">
+    <div class="container">
+      <h1 class="display-4">Dumilde Costa<br/>Desenvolvedor altamente qualificado</h1>
+      <p class="lead">Especialista em soluções digitais seguras e eficientes.</p>
+      <a href="#contato" class="btn btn-primary btn-lg">Fale comigo</a>
+    </div>
+  </section>
+  <!-- Sobre -->
+  <section id="sobre" class="py-5 bg-white">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 order-2 order-md-1 text-center">
+          <img src="chefe Dumilde.jpeg"
+               alt="Dumilde Costa"
+               class="img-fluid img-profissional mx-auto d-block"
+               loading="lazy"/>
+        </div>
+        <div class="col-12 col-md-6 order-1 order-md-2">
+          <h2 class="mb-4">Sobre Mim</h2>
+          <p class="mb-4">
+            Sou um desenvolvedor especializado em transformar ideias em soluções digitais.
+            Com ampla experiência em Python e JavaScript, crio aplicações e interfaces
+            seguras e eficientes. Meu compromisso é com a inovação e a qualidade.
+          </p>
+          <div>
+            <span class="badge bg-primary me-1">Python</span>
+            <span class="badge bg-primary me-1">JavaScript</span>
+            <span class="badge bg-primary me-1">Django</span>
+            <span class="badge bg-primary me-1">React</span>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-</section>
-    <!-- Serviços -->
-    <section id="servicos" class="services py-5 bg-light">
-	    <div class="container">
-		    <h2 class="mb-4">Serviços</h2>
-		    <div class="row">
-			    <div class="col-md-4 mb-3">
-				    <div class="service-item p-3 border h-100">
-					    <h3>Aplicações em Python</h3>
-					    <p>Desenvolvimento de soluções robustas utilizando Python para atender suas necessidades.</p>
-					    <a href="#" class="btn btn-outline-secondary">Ver detalhes</a>
-				    </div>
-			    </div>
-			    <div class="col-md-4 mb-3">
-				    <div class="service-item p-3 border h-100">
-					    <h3>Interfaces Web com JavaScript</h3>
-					    <p>Criação de interfaces modernas e interativas para melhorar a experiência do usuário.</p>
-					    <a href="#" class="btn btn-outline-secondary">Ver detalhes</a>
-				    </div>
-			    </div>
-			    <div class="col-md-4 mb-3">
-				    <div class="service-item p-3 border h-100">
-					    <h3>Soluções Inovadoras de Software</h3>
-					    <p>Projetos personalizados que alinham inovação e eficiência em tecnologia.</p>
-					    <a href="#" class="btn btn-outline-secondary">Ver detalhes</a>
-				    </div>
-			    </div>
-		    </div>
-	    </div>
-    </section>
-    
-    <!-- Contactos -->
-    
-    <section id="contato" class="contact-section dark-theme py-5">
-	    <div class="container">
-		    <h2 class="mb-4 text-center">Contato</h2>
-		    <div class="row align-items-center">
-
-			    <!--Ícones de Redes Sociais -->
-
-			    <div class="col-md-6 social-col text-center text-md-start">
-				    <ul class="social-icons list-unstyled d-flex">
-					    <li class="me-3">
-						    <a href="https://x.com/costa_dumilde" target="_blank" rel="noopener noreferrer" title="Twitter"><i class="bi bi-twitter"></i>
-						    </a>
-					    </li>
-					    <li class="me-3">
-						    <a href="https://www.facebook.com/profile.php?id=100086838957451" target="_blank" rel="noopener noreferrer" title="Facebook"><i class="bi bi-facebook"></i></a></li>
-					    <li class="me-3"><a href="https://www.instagram.com/bartolomeu6614/" target="_blank" rel="noopener noreferrer" title="Instagram"><i class="bi bi-instagram"></i></a></li>
-					    <li class="me-3"><a href="#" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="bi bi-linkedin"></i></a></li>
-				    </ul>
-			    </div>
-
-
-			    <!-- Parte da esquerda -->
-
-			    <div class="col-md-6 info-col d-flex justify-content-end">
-				    <ul class="contact-info list-unstyled text-end">
-					    <li><strong>Morada:</strong> Bairro Talatona, nº16,</li>
-					    <li><strong>Naturalidade:</strong> Luanda, Angola</li>
-					    <li><strong>Email:</strong> dumildecosta10@gmail.com</li>
-					    <li><strong>Telefone:</strong> +244 947 092 305</li>
-				    </ul>
-			    </div>
-		    </div>
-	    </div>
-    </section>
-    <!-- Rodapé -->
-    <footer class="footer bg-dark text-white py-3">
-	    <div class="container text-center">
-		    <p>&copy; 2025 Dumilde Costa. Todos os direitos reservados.</p>
-	    </div>
-    </footer>
-<a href="https://wa.me/244947092305" target="_blank" style="position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2); z-index: 100;">
+  </section>
+  <!-- Serviços -->
+  <section id="servicos" class="services py-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4 text-center">Serviços</h2>
+      <div class="row">
+        <!-- Python -->
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <div class="service-item p-4 border h-100">
+            <div class="icon mb-3 text-primary">
+              <i class="bi bi-file-earmark-code"></i>
+            </div>
+            <h3>Aplicações em Python</h3>
+            <p>Desenvolvimento de soluções robustas utilizando Python para atender suas necessidades.</p>
+            <a href="#detalhes-python" class="btn btn-outline-secondary">Ver detalhes</a>
+          </div>
+        </div>
+        <!-- JavaScript -->
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <div class="service-item p-4 border h-100">
+            <div class="icon mb-3 text-primary">
+              <i class="bi bi-filetype-js"></i>
+            </div>
+            <h3>Aplicações em JavaScript</h3>
+            <p>Criação de interfaces dinâmicas e scripts interativos para um front-end moderno.</p>
+            <a href="#detalhes-js" class="btn btn-outline-secondary">Ver detalhes</a>
+          </div>
+        </div>
+        <!-- Django -->
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <div class="service-item p-4 border h-100">
+            <div class="icon mb-3 text-primary">
+              <i class="bi bi-server"></i>
+            </div>
+            <h3>APIs em Django</h3>
+            <p>Desenvolvimento de APIs RESTful seguras com Django e Django REST Framework.</p>
+            <a href="#detalhes-django" class="btn btn-outline-secondary">Ver detalhes</a>
+          </div>
+        </div>
+        <!-- React -->
+        <div class="col-12 col-sm-6 col-lg-3 mb-4">
+          <div class="service-item p-4 border h-100">
+            <div class="icon mb-3 text-primary">
+              <i class="bi bi-lightning-charge"></i>
+            </div>
+            <h3>SPAs em React</h3>
+            <p>Construção de interfaces de usuário reativas e escaláveis com React.</p>
+            <a href="#detalhes-react" class="btn btn-outline-secondary">Ver detalhes</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Contato -->
+  <section id="contato" class="contact-section dark-theme py-5">
+    <div class="container">
+      <h2 class="mb-4 text-center">Contato</h2>
+      <div class="row align-items-center">
+        <div class="col-12 col-md-6 social-col">
+          <ul class="social-icons list-unstyled d-flex justify-content-center justify-content-md-start">
+            <li class="me-3"><a href="https://x.com/costa_dumilde" title="Twitter"><i class="bi bi-twitter fs-4"></i></a></li>
+            <li class="me-3"><a href="https://www.facebook.com/..." title="Facebook"><i class="bi bi-facebook fs-4"></i></a></li>
+            <li class="me-3"><a href="https://www.instagram.com/..." title="Instagram"><i class="bi bi-instagram fs-4"></i></a></li>
+            <li><a href="#" title="LinkedIn"><i class="bi bi-linkedin fs-4"></i></a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-6 info-col">
+          <ul class="contact-info list-unstyled text-md-end">
+            <li><strong>Morada:</strong> Bairro Talatona, nº16</li>
+            <li><strong>Naturalidade:</strong> Luanda, Angola</li>
+            <li><strong>Email:</strong> dumildecosta10@gmail.com</li>
+            <li><strong>Telefone:</strong> +244 947 092 305</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- Rodapé -->
+  <footer class="footer bg-dark text-white py-3">
+    <div class="container text-center">
+      <p>&copy; 2025 Dumilde Costa. Todos os direitos reservados.</p>
+    </div>
+  </footer>
+<a href="https://wa.me/947092305" target="_blank" style="position: fixed; bottom: 20px; right: 20px; background: #25D366; color: white; width: 60px; height: 60px; border-radius: 50%; display: flex; align-items: center; justify-content: center; box-shadow: 0 4px 8px rgba(0,0,0,0.2); z-index: 100;">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="30" height="30" fill="white">
       <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z" />
     </svg>
-</a>
-<a href="https://wa.me/244947092305?text=Olá%20gostaria%20de%20saber%20mais" target="_blank">...</a>
-    <!-- Bootstrap JS -->
-    <script src="script.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
-	</body>
+  </a>	
+  <!-- Scripts -->
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
 </html>
